@@ -2,9 +2,7 @@ import PDFDocument from "pdfkit";
 import fs from "fs";
 import { formatUSD, formatDate } from "../utils/format";
 
-// Fixed billing constants that appear in every invoice
-const FIXED_RUT = "218873550019";
-const FIXED_ADDRESS_LINE = "Avda. Luis Alberto de Herrera 1248, Piso 12, Montevideo, ROU";
+
 
 export interface InvoiceOptions {
   cliente: string;
