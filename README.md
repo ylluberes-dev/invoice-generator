@@ -22,6 +22,8 @@ npm link
 invoicegen --help
 ```
 
+Note: you can also create an alias on your zshrc (if you are on mac)
+
 Without linking, run with `node dist/cli.js`.
 
 ---
